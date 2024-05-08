@@ -1,4 +1,4 @@
-const apiurl = "http://localhost/api/index.php?levesek";
+const apiurl = "http://localhost/api/backend/index.php?levesek";
 document.addEventListener ("DOMContentLoaded", function(){
     async function getLevesek() {
         response = await fetch(apiurl);
